@@ -1,0 +1,9 @@
+{
+    "cmake.configureArgs": [
+        //"-DCMAKE_CXX_FLAGS=-ftime-trace",
+        //"-DENABLE_TESTING=True",
+        //"-DENABLE_ASAN=True",
+        "-DLLVM_DIR=/home/sam/code/Enzyme/llvm_14_0_6/build/lib/cmake/llvm",
+    ],
+    "cmake.configureOnOpen": true,
+}
