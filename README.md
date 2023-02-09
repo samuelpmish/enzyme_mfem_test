@@ -28,7 +28,7 @@ cmake -G Ninja /path/to/llvm-project/llvm -DLLVM_TARGETS_TO_BUILD="host"        
                                           -DLLVM_ENABLE_RUNTIMES="libcxx;libcxxabi" 
 ```
 
-For mac users, it may also be necessary to include the `-DDEFAULT_SYSROOT=`xcrun --show-sdk-path`` as a configure argument as well.
+For mac users, it may also be necessary to include the `` -DDEFAULT_SYSROOT=`xcrun --show-sdk-path` `` as a configure argument as well.
 
 ---------
 
